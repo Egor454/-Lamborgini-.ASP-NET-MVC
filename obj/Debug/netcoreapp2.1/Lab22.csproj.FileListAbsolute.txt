@@ -1,0 +1,16 @@
+D:\unifersitet\Садыков\Lab22\bin\Debug\netcoreapp2.1\appsettings.Development.json
+D:\unifersitet\Садыков\Lab22\bin\Debug\netcoreapp2.1\appsettings.json
+D:\unifersitet\Садыков\Lab22\bin\Debug\netcoreapp2.1\Properties\launchSettings.json
+D:\unifersitet\Садыков\Lab22\bin\Debug\netcoreapp2.1\Lab22.deps.json
+D:\unifersitet\Садыков\Lab22\bin\Debug\netcoreapp2.1\Lab22.runtimeconfig.json
+D:\unifersitet\Садыков\Lab22\bin\Debug\netcoreapp2.1\Lab22.runtimeconfig.dev.json
+D:\unifersitet\Садыков\Lab22\bin\Debug\netcoreapp2.1\Lab22.dll
+D:\unifersitet\Садыков\Lab22\bin\Debug\netcoreapp2.1\Lab22.pdb
+D:\unifersitet\Садыков\Lab22\obj\Debug\netcoreapp2.1\Lab22.csprojAssemblyReference.cache
+D:\unifersitet\Садыков\Lab22\obj\Debug\netcoreapp2.1\Lab22.RazorAssemblyInfo.cache
+D:\unifersitet\Садыков\Lab22\obj\Debug\netcoreapp2.1\Lab22.RazorAssemblyInfo.cs
+D:\unifersitet\Садыков\Lab22\obj\Debug\netcoreapp2.1\Lab22.AssemblyInfoInputs.cache
+D:\unifersitet\Садыков\Lab22\obj\Debug\netcoreapp2.1\Lab22.AssemblyInfo.cs
+D:\unifersitet\Садыков\Lab22\obj\Debug\netcoreapp2.1\Lab22.RazorTargetAssemblyInfo.cache
+D:\unifersitet\Садыков\Lab22\obj\Debug\netcoreapp2.1\Lab22.dll
+D:\unifersitet\Садыков\Lab22\obj\Debug\netcoreapp2.1\Lab22.pdb

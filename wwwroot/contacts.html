@@ -1,0 +1,111 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title>Ламборгини</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+    <!-- Optional theme -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/StyleSheet.css">
+</head>
+<body>
+    <div class="navbar navbar-inverse navbar-fixed-top">
+        <div class="container">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" href="">Lamborghini</a>
+            </div>
+            <ul class="nav navbar-nav navbar-right navbar-collapse collapse" role="tablist">
+                <li><a href="index.html">Каталог</a></li>
+                <li><a data-toggle="modal" data-target="#error">Корзина</a></li>
+                <li><a href="contacts.html">Контакты</a></li>
+                <li><a href="About.html">Про нас</a></li>
+                <li><a id="logIn"></a></li>
+            </ul>
+        </div>
+    </div>
+    <div id="headewrap">
+        <div class="container">
+            <div class="row centered">
+                <div class="col-lg-8 col-lg-offset-2">
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container">
+        <h2>Контакты</h2>
+        <form id="myform">
+            <p>
+                Для получения большей информации,звоните по телефону +79969314398.
+            </p>
+            <p>
+                Пишите на почту 17541@gapps.ispu.ru
+            </p>
+        </form>
+    </div>
+    <div id="login" class="modal fade">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button class="close" data-dismiss="modal">x</button>
+                    <h4 class="modal-title">Вход</h4>
+                </div>
+                <div class="modal-body">
+                    <form>
+                        <div id="errorlogin"></div>
+                        <ul id="formError"></ul>
+                        <div class="form-group">
+                            <label for="email">Email:</label>
+                            <input type="email" class="form-control" id="Email" />
+                        </div>
+                        <div class="form-group">
+                            <label for="password">Пароль:</label>
+                            <input type="password" class="form-control" id="Password" />
+                        </div>
+                        <div class="form-group form-check">
+                            <label class="form-group form-check">
+                                <input class="form-check-input" id="Remember" type="checkbox" />Запомнить
+                            </label>
+                        </div>
+                    </form>
+                    <a href="Register.html">Регистрация</a>
+                </div>
+                <div class="modal-footer">
+                    <button type="submit" onclick="logIn();" class="btn btn-success">Войти</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container">
+        <div id="error" class="modal fade">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <button type="button" class="close" data-dismiss="modal">x</button>
+                        <h4 class="modal-title">Ошибка</h4>
+                    </div>
+                    <div class="modal-body">
+                        <form role="form">
+                            <label class="msgClass">Корзина открывается только из каталога.Перейдите в каталог.</label>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="/js/register.js"></script>
+    <!-- jQuery -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+    <script src="/js/Script.js"></script>
+    <!-- Latest compiled and minified JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+
+</body>
+</html>
